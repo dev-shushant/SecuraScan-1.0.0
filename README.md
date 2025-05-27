@@ -1,76 +1,86 @@
-SecuraScan
+# 🔐 SecuraScan
 
-Your Cross-Platform Mobile App Security Sidekick — built with Jetpack Compose for Desktop
+**Your Cross-Platform Mobile App Security Sidekick — built with Jetpack Compose for Desktop**
 
-⸻
+---
 
-What is SecuraScan?
+## 🧐 What is SecuraScan?
 
-SecuraScan is a lightweight desktop app designed for mobile developers and security enthusiasts to quickly analyze Android APKs and iOS IPAs for common security risks and vulnerabilities. It’s a first-step tool — fast, cross-platform, and built with Kotlin and Compose for Desktop to give you instant insights without complicated setups.
+**SecuraScan** is a fast, lightweight desktop tool for mobile developers and security enthusiasts to quickly analyze Android APKs and iOS IPAs for common security issues. Designed as a *first-line defense* before release, it detects risky configurations, secrets, native code flags, and more — all in a single, intuitive interface.
 
-Think of SecuraScan as your quick sanity check before shipping — helping you catch exported components, dangerous permissions, embedded secrets, weak config flags, suspicious native code, and known bypass libraries — all from a single, clean interface.
+Use it as your **pre-flight checklist**: no complex setup, no cloud dependencies — just smart static analysis with actionable results.
 
-⸻
+---
 
-Why SecuraScan?
-	•	Cross-platform desktop app: Runs natively on Windows, macOS, and Linux with consistent UI and experience.
-	•	Built with Compose for Desktop: Leverages Kotlin’s modern UI toolkit for rapid development and a reactive UI.
-	•	Fast static analysis: Scans APK/IPA files for manifest issues, native code patterns, embedded secrets, and more.
-	•	Actionable reports: Generates user-friendly HTML reports with severity levels and recommendations.
-	•	Ideal for devs and security teams: Use it as a quick check in your development or security review workflow.
+## 💡 Why Use SecuraScan?
 
-⸻
+- 🖥️ **Cross-platform desktop app**: Runs natively on **Windows**, **macOS**, and **Linux** with consistent UI/UX.
+- 🛠️ **Built with Compose for Desktop**: Clean, reactive UI powered by Kotlin.
+- ⚡ **Fast static analysis**: Detects:
+  - Exported components
+  - Dangerous permissions
+  - Hardcoded secrets and keys
+  - Insecure flags (e.g., debuggable)
+  - Suspicious native code or bypass libraries
+- 📄 **Actionable HTML reports**: Severity ratings, descriptions, and remediation tips.
+- 👨‍💻 **Made for devs & security teams**: Use it in development or security review pipelines.
 
-Tech Stack
-	•	Kotlin + Jetpack Compose for Desktop for UI and application framework
-	•	Gradle for build automation and native packaging
-	•	Custom analyzers for APK and IPA static analysis
-	•	HTML report generator with interactive UI components
+---
 
-⸻
+## 🧰 Tech Stack
 
-Getting Started
+- **Kotlin** + **Jetpack Compose for Desktop** – modern, reactive UI framework
+- **Gradle** – build automation and packaging
+- **Custom Static Analyzers** – tailored for Android & iOS app packages
+- **Interactive HTML Report Generator** – clean, shareable vulnerability reports
 
-Prerequisites
-	•	Java 17+ (JDK 17 recommended)
-	•	Latest Gradle (optional, if building from source)
+---
 
-Download & Run
+## 🚀 Getting Started
 
-Pre-built installers are available for:
-	•	Windows (.msi)
-	•	macOS (.dmg)
-	•	Linux (.deb)
+### 🔧 Prerequisites
 
-Download from Releases page (replace with your actual URL) and install like any other desktop app.
+- Java 17+ (JDK 17 recommended)
+- Gradle (optional for building from source)
 
-Usage
-	•	Open your APK or IPA file via the file menu
-	•	Let SecuraScan analyze the package — results appear in real-time
-	•	Review detected risks with severity icons and detailed info
-	•	Export the report as an interactive HTML file for sharing or record-keeping
+### 📦 Download & Run
 
-⸻
+Pre-built installers available for:
 
-Contributing
+- 🪟 Windows (.msi)
+- 🍎 macOS (.dmg)
+- 🐧 Linux (.deb)
 
-This is an early-stage project and always evolving! Contributions, bug reports, and feature requests are welcome:
-	•	Open an issue for bugs or feature ideas
-	•	Submit pull requests with improvements or new analyzers
-	•	Help improve UI, performance, or expand platform support
+👉 [Download from the Releases page](https://github.com/dev-shushant/SecuraScan-1.0.0/releases)
 
-⸻
+### 🏃‍♂️ Usage
 
-License
+1. Launch the SecuraScan desktop app
+2. Open an `.apk` or `.ipa` file via the menu
+3. View results as they appear in real time
+4. Export a full HTML report with all findings and recommendations
 
-MIT License
+---
 
-⸻
+## 🤝 Contributing
 
-Contact
+SecuraScan is evolving — we welcome feedback and contributions!
 
-Built and maintained by Shushant — reach out on GitHub or Twitter.
+- 🐞 Report issues or feature requests
+- 📦 Submit pull requests for improvements or new analyzers
+- 🎨 Help refine UI, UX, and performance
 
-⸻
+---
 
-Feel free to tell me if you want me to draft a developer blog post next or a quick intro video script!
+## ⚖️ License
+
+[MIT License](LICENSE)
+
+---
+
+## 👤 Contact
+
+Built and maintained by **Shushant**  
+📫 Reach out on [GitHub](https://github.com/dev-shushant)
+
+---
